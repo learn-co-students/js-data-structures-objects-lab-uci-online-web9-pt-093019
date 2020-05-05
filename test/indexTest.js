@@ -4,7 +4,7 @@ describe('drivers', function() {
       for (const key in driver) {
         delete driver[key];
       }
-
+      
       driver.name = 'Sam';
     });
 
